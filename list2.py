@@ -16,6 +16,7 @@ def remove_adjacent(nums):
 
 def linear_merge(list1, list2):
     # Not linear time below:
+    # the `sorted()` function sorts the combined list, which is not a linear time operation
     # return list(sorted(list1 + list2))
 
     merged_list = []
